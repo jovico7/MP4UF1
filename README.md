@@ -1,12 +1,12 @@
 # Primeros pasos en Git
 
-1. Instalar Git
+   ## Instalar Git
   
   https://git-scm.com
   
   `git --version` verifica la versión de git
   
-2. Establecer valores de configuración
+   ## Establecer valores de configuración
 
    Esta información se utiliza para tener registro en los cambios que se van a desarrollar
    
@@ -24,7 +24,7 @@ Las páginas estáticas no necesitan de un servidor web para que funcionen.
 
 Para probar el contenido utilizaremos un navegador.
 
-3. Elegir un repositorio y clonarlo
+   ## Elegir un repositorio y clonarlo
 
   Para esto, deberemos entrar en GitHub y copiar el enlace del repositorio para posteriormente clonarlo en Visual Studio.
   
