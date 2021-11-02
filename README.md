@@ -102,3 +102,16 @@ Para clonar un repositorio tendremos que hacer esto:
   
   La etiqueta **ul** hace exactamente lo mismo que **ol**, sólo que la lista que generará será una lista no ordenada, sin números que la organicen, sólo con · 
   
+## Otras etiquetas importantes
+
+ La etiqueta **p** identifica que lo que escribes es un párrafo, es la más utilizada para páginas web, pues es la que convierte todas las letras en texto.
+ 
+ La etiqueta **a** abre un link para acceder desde una misma palabra con el HTML, es decir, convierte la palabra en un link para el HTML que tú hayas decidido, algo como [esto](https://www.google.com/).
+ 
+ La etiqueta **p style="color: blue"** cambia el color de la letra que hemos escrito dentro de la etiqueta **p**, pero si este comando lo ponemos en **head** hará que todas las etiquetas **p** que pongamos deban ser de color azul. También podemos elegir el color que queramos, nos saldrá una opción despues de escribir `color:`.
+ 
+ La opción **style**, por lo tanto, agrega estilos en línea.
+ 
+ La opción **src** define la ruta de la imagen, como hemos explicado anteriormente para colocar una imagen en nuestro HTML.
+ 
+ La opción **alt** es una imagen de descripción de la foto.
