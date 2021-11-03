@@ -108,10 +108,48 @@ Para clonar un repositorio tendremos que hacer esto:
  
  La etiqueta **a** abre un link para acceder desde una misma palabra con el HTML, es decir, convierte la palabra en un link para el HTML que tú hayas decidido, algo como [esto](https://www.google.com/).
  
- La etiqueta **p style="color: blue"** cambia el color de la letra que hemos escrito dentro de la etiqueta **p**, pero si este comando lo ponemos en **head** hará que todas las etiquetas **p** que pongamos deban ser de color azul. También podemos elegir el color que queramos, nos saldrá una opción despues de escribir `color:`.
+ La etiqueta **p style="color: blue"** cambi}a el color de la letra que hemos escrito dentro de la etiqueta **p**, pero si este comando lo ponemos en **head** hará que todas las etiquetas **p** que pongamos deban ser de color azul. También podemos elegir el color que queramos, nos saldrá una opción despues de escribir `color:`.
  
  La opción **style**, por lo tanto, agrega estilos en línea.
  
  La opción **src** define la ruta de la imagen, como hemos explicado anteriormente para colocar una imagen en nuestro HTML.
  
  La opción **alt** es una imagen de descripción de la foto.
+
+
+ El selector p{
+         
+         /*....*/
+         
+              }
+              
+ Aplica a todas las p lo que introduzcamos dentro de las llaves.
+ 
+ **div p{...** sirve para agrupar lo que deseemos en el mismo bloque a todos los descendientes (en este caso **NO** es descenciente directo)
+ 
+ **div>p{** sólo agrupará el descendiente directo de div, es decir, p{.
+ 
+ Un ejemplo práctico para entender esto sería la siguiente gráfica:
+ ```
+ div
+    div
+       p.../p
+    div
+   p.../p
+ div
+```
+
+Como podemos observar, si hubiésemos utilizado div<p{ el único que habría funcionado es el segundo div, ya que es el que tiene conexión directa con p, el primero.
+
+div+p{ en este caso la diferencia que tenemos con los anteriores es que el + es el elemento adyacente, es decir, el primer objeto.
+
+Ejemplo:
+
+```
+div class="a"
+  p class="a" ... /p
+/div
+```
+p·a{ significaría que el párrafo que tiene el clase "a" aplicaría los cambios que nosotros dijésemos. Con esto, nos ahorramos tener que repetir éstos cambios una y otra vez, si es que son muy largos. Gracias al gran número de combinaciones, podemos ahorrar tiempo y trabajar de manera muy específica.
+
+ 
