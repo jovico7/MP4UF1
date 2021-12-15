@@ -153,3 +153,13 @@ div class="a"
 p·a{ significaría que el párrafo que tiene el clase "a" aplicaría los cambios que nosotros dijésemos. Con esto, nos ahorramos tener que repetir éstos cambios una y otra vez, si es que son muy largos. Gracias al gran número de combinaciones, podemos ahorrar tiempo y trabajar de manera muy específica.
 
  
+ 
+ 
+ "
+ Tema de los cuadritos
+ "
+
+
+Existen etiquetas que hacen lo mismo que "div" como "header", la diferencia es que si se leen en voz alta en vez de decir DIV dice encabezado, cosa que facilita a cualquier persona con alguna deficiencia a leer este mismo.
+
+El vh es la altura de la pantalla del navegador, y si asignamos 100vh al header significa que el header ocupará toda la pantalla.
