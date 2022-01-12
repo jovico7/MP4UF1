@@ -184,3 +184,6 @@ Además de esto, también hay etiquetas que hacen exactamente lo mismo que div c
 - href="#gallery">Item1 -> Sirve para asignar esta id a una palabra, y nos llevara allí donde pongamos la id=gallery, ya sea un div o una p, un footer, etc.
 
 - scroll-behavior:smooth -> Nos servirá para que la página deslice la pantalla cuando cliquemos a un href en vez de "teletransportarse" directamente.
+
+
+- form action="showview.html" -> Es un campo que te permite poner texto, el que quieras.
