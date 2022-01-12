@@ -160,6 +160,27 @@ p·a{ significaría que el párrafo que tiene el clase "a" aplicaría los cambio
  "
 
 
-Existen etiquetas que hacen lo mismo que "div" como "header", la diferencia es que si se leen en voz alta en vez de decir DIV dice encabezado, cosa que facilita a cualquier persona con alguna deficiencia a leer este mismo.
+Existen etiquetas que hacen lo mismo que div, como **"header"**, la diferencia es que si se leen en voz alta en vez de decir DIV dice encabezado, cosa que facilita a cualquier persona con alguna deficiencia a leer este mismo.
 
-El vh es la altura de la pantalla del navegador, y si asignamos 100vh al header significa que el header ocupará toda la pantalla.
+El **vh** es la altura de la pantalla del navegador, y si asignamos 100vh al header significa que el header ocupará toda la pantalla.
+
+- Media query
+```
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: white;
+    }
+}
+```
+Los **px** son los píxeles por pantalla, entonces hacemos que cuando la pantalla de la página web sea menor a
+400 píxeles el fondo de esta misma cambie a color blanco.
+El **vh** es la altura del navegador y el vw es la anchura de este, en ambos casos el número 100 es el 100% de este.
+
+El **rem** sirve para multiplicar el tamaño que pongamos en el HTML, por ejemplo, ´html font-size: ***32px***´, si ponemos
+**2rem** en p, la p pasará a tener ***64px***.
+
+Además de esto, también hay etiquetas que hacen exactamente lo mismo que div como **"footer"** o **"header"**, básicamente nos ayuda a no perdernos y poder leer el código organizándonos, o también para que otras personas puedan leer el código de la web con mayor facilidad.
+
+- href="#gallery">Item1 -> Sirve para asignar esta id a una palabra, y nos llevara allí donde pongamos la id=gallery, ya sea un div o una p, un footer, etc.
+
+- scroll-behavior:smooth -> Nos servirá para que la página deslice la pantalla cuando cliquemos a un href en vez de "teletransportarse" directamente.
