@@ -187,3 +187,39 @@ Además de esto, también hay etiquetas que hacen exactamente lo mismo que div c
 
 
 - form action="showview.html" -> Es un campo que te permite poner texto, el que quieras.
+
+
+-- Inputs --
+
+Tipo texto -> "text"
+Botón para enviar -> "submit"
+Tipo contraseña -> "password"
+<form action="" method="post" Este action nos indica dónde van a viajar los datos cuando cliquemos el botón de submit. Entonces dentro del propio action
+deberemos poner un fichero acabado en .php.
+
+Si el código tiene PHP hay que meterlo en un fichero que sea de xampp
+Dentro de xampp htdocs crearemos una carpeta llamada www, que es donde guardaremos nuestros html, dentro de xampp, para que no de errores cuando utilicemos un código php.
+Dentro del body ponemos poner un código php con 
+"<?php
+echo $_REQUEST["nombre"];
+?>"
+localhost/www
+
+Crearemos un directorio view dentro del directorio llamado form-php dentro del directorio llamado www.
+Dentro del directorio view creamos un fichero llamado mostrar.php.
+Hay 2 formas de abrir un archivo:
+- Darle a explorador de archivos y doble click (sería la mala manera, no es la forma correcta)
+- Poner localhost/www y buscarlo
+
+El atributo name sirve para recoger los datos en PHP.
+Cualquier cosa que se escriba después de echo se mostrará por pantalla.
+El atributo placeholder sirve para poner dentro del input texto, pero es mucho menos importante que el atributo name.
+Hay 3 métodos:
+- $_GET[""] -> Se utiliza si el método del formulario es GET, dentro del GET hay que poner el mismo nombre que hayamos puesto en el atributo name. Los valores que introducimos 
+   en el campo se ven en la URL.
+
+- $_POST[""] -> A diferencia de GET, no podremos ver los valores que introducimos en la URL.
+   
+- $_REQUEST[""] -> 
+   
+   Al final de todos habrá que poner ; para que no vaya mal.
