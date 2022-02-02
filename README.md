@@ -223,3 +223,8 @@ Hay 3 métodos:
 - $_REQUEST[""] -> 
    
    Al final de todos habrá que poner ; para que no vaya mal.
+
+   -- El método Header --
+   El método header en PHP sirve para redirigir de vuelta a nuestra página web principal, y se escribiría tal que así:
+   - "header('Location: ../index.html');"
+   Dentro de la ubicación podemos escribir un mensaje para que lo pueda leer-> ".../index.html?msg=electrico"
