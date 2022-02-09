@@ -225,6 +225,21 @@ Hay 3 métodos:
    Al final de todos habrá que poner ; para que no vaya mal.
 
    -- El método Header --
+   
    El método header en PHP sirve para redirigir de vuelta a nuestra página web principal, y se escribiría tal que así:
    - "header('Location: ../index.html');"
    Dentro de la ubicación podemos escribir un mensaje para que lo pueda leer-> ".../index.html?msg=electrico"
+   
+   -- Elementos PHP: --
+   
+   - $_GET["index"], $_POST["index"] y $_REQUEST["index"]
+   - isset - determina si una variable está definida y no es null
+   - echo - muestra una o más cadenas
+   - strtolower - convierte un string a minúsculas
+   - strtoupper - convierte un string a mayúsculas
+   - session_start - iniciar una nueva sesión o reanudar la existente
+   - $_SESSION["index"] - variables de sesión
+   - session_destroy - destruye toda la información registrada de una sesión
+
+   
+   - session_start: Para indicar que esa persona ha ido de pantalla en pantalla y no se ha saltado el flujo de lógica de la página web. Se utiliza mucho en los casos de log in.
